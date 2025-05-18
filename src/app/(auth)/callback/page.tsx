@@ -16,6 +16,7 @@ const AuthCallbackPage = async () => {
   } else {
     redirect("/");
   }
+  
   return <div>AuthCallbackPagge</div>;
 };
 
